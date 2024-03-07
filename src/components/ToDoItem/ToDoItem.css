@@ -1,0 +1,51 @@
+.ToDoItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 12px 0;
+
+  background: linear-gradient(white, white) padding-box,
+              linear-gradient(to right, #E48586, #916DB3) border-box;
+  border-radius: 15px;
+  border: 2px solid transparent;
+
+  width: 70%;
+
+}
+
+.ToDoItem .Task {
+  font-size: 1.2em;
+  color: #916DB3;
+  padding: 1%;
+  margin: 5px 0;
+  width: 80%;
+}
+
+.ToDoItem .Task--complete {
+  text-decoration: line-through;
+  color: #E48586;
+}
+
+@media screen and (max-width: 1000px) {
+  .ToDoItem {
+    width: 90%;
+  }
+
+  .ToDoItem .Task {
+    font-size: 1.2em;
+  }
+  
+}
+
+@media screen and (max-width: 600px) {
+  .ToDoItem {
+    width: 90%;
+    margin: 8px 0;
+  }
+
+  .ToDoItem .Task {
+    font-size: 1em;
+  }
+  
+}

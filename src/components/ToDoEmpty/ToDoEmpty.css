@@ -1,0 +1,28 @@
+.empty {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 100%;
+  font-size: 1.2rem;
+  color: #916DB3;
+  text-align: center;
+}
+
+.empty img {
+  width: 35%;
+  margin-bottom: 1%;
+}
+
+.empty p {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1000px){
+  .empty img {
+    width: 40%;
+    margin-bottom: 2%;
+  }
+}

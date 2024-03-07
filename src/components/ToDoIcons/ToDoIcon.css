@@ -1,0 +1,32 @@
+.Icon {
+  cursor: pointer;
+  margin: 0 1%;
+  padding: 1%;
+  border-radius: 15px;
+  width: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.Icon-check {
+  stroke: #E48586;
+}
+
+.Icon-doubleCheck {
+  stroke: #916DB3;
+}
+
+.Icon-delete {
+  stroke: #FFADC5;
+}
+
+.Icon-delete:hover {
+  stroke: #916DB3;
+}
+
+.Icon-delete:active {
+  stroke: #916DB3;
+}

@@ -1,0 +1,28 @@
+.content {
+  flex: 1;
+  background-color: white;
+  padding: 1.5em;
+
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+  box-shadow: 0px -5px 15px rgba(90, 22, 53, 0.5);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+@media screen and (max-width: 1000px) {
+  .content {
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .content {
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+  }
+}

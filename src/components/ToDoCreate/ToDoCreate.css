@@ -1,0 +1,152 @@
+.createTODO {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  
+  width: 70%;
+  max-width: 500px;
+  border-radius: 10px;
+
+  background-color: rgb(255, 255, 255);
+}
+
+.formHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 2%;
+  padding: 15px 0;
+
+  position: relative;
+
+  background-color: #5C4B99;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.formContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  
+  width: 100%;
+  padding: 15px;
+
+}
+
+.formHeader h2 {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #ffffff;
+
+  text-align: center;
+  margin: 0;
+}
+
+.formHeader .Icon-delete {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.inputText {
+  width: 80%;
+  padding: 2%;
+  margin-bottom: 2%;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 5px 25px rgba(100, 97, 250, 0.5);
+  font-size: 1.2em;
+  text-align: center;
+  resize: none;
+}
+
+.inputText:focus {
+  outline: 1px solid #5C4B99;
+}
+
+.inputText::placeholder {
+  color: #5C4B99;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+
+.formBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.btnCancel {
+  background-color: transparent;
+  border: none;
+  border-radius: 10px;
+  padding: 2%;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #5C4B99;
+  cursor: pointer;
+
+}
+
+.btnCancel:hover {
+  background-color: #5C4B99;
+  box-shadow: 0px 5px 25px rgba(100, 97, 250, 0.5);
+  transform: scale(1.1);
+  color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.btnCreateToDo {
+  background-color: #fa8183;
+  border: none;
+  border-radius: 10px;
+  padding: 2% 12%;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #ffffff;
+  cursor: pointer;
+  box-shadow: 0px 5px 25px rgba(100, 97, 250, 0.5);
+
+}
+
+.btnCreateToDo:hover {
+  background-color: #5C4B99;
+  box-shadow: 0px 5px 25px rgba(100, 97, 250, 0.5);
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 1000px){
+  .formHeader h2 {
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .formHeader h2 {
+    font-size: 1em;
+  }
+
+  .inputText::placeholder {
+    font-size: 1em;
+  }
+
+  .inputText {
+    font-size: 1em;
+  }
+
+  .btnCreateToDo, .btnCancel {
+    font-size: 1em;
+  }
+}
+

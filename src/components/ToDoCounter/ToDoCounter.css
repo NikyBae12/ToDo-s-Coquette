@@ -1,0 +1,30 @@
+.ToDoCounter {
+  background-color: #916DB3;
+  color: white;
+  font-size: 1.3em;
+  border-radius: 15px;
+  text-align: center;
+  margin: 0;
+  padding: .5em 0;
+  font-weight: normal;
+
+  width: 70%;
+  box-shadow: inset 0px 0px 15px rgba(39, 7, 82, 0.5);
+}
+
+.ToDoCounter span {
+  font-weight: bold;
+}
+
+.ToDoCounter p {
+  margin: 0;
+  padding: 0;
+}
+
+
+@media screen and (max-width: 600px) {
+  .ToDoCounter {
+    font-size: 1em;
+    width: 80%;
+  }
+}
