@@ -8,3 +8,5 @@ ToDo's Coquette 🎀 es una aplicación de gestión de tareas diseñada con un e
 - **Completar Tareas:** Marca las tareas como completadas una vez que las hayas terminado.
 - **Eliminar Tareas:** Elimina las tareas que ya no necesitas.
 - **Estilo Visual Coquette:** Disfruta de una interfaz coquette y amigable.
+
+## ¡Gracias por visitar ToDo's Coquette 🎀!
