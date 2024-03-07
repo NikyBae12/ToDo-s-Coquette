@@ -1,5 +1,5 @@
 {
-  "name": "platzi-intro-react-base",
+  "name": "to-do-s-coquette",
   "version": "0.1.0",
   "dependencies": {
     "react": "^18",
@@ -29,5 +29,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "."
+  "homepage": "https://NikyBae12.github.io/ToDo-s-Coquette"
 }
