@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ToDo-s-Coquette/static/css/main.c6332c04.css",
+    "main.js": "/ToDo-s-Coquette/static/js/main.3eb6c4e3.js",
+    "static/media/empty_todos.jpg": "/ToDo-s-Coquette/static/media/empty_todos.0f35b546601f1e186cc6.jpg",
+    "index.html": "/ToDo-s-Coquette/index.html",
+    "static/media/doubleCheck.svg": "/ToDo-s-Coquette/static/media/doubleCheck.4df4b278045081a50ca51d8a42b8fa81.svg",
+    "static/media/check.svg": "/ToDo-s-Coquette/static/media/check.a8e07ea9b4bfbc927fa49bea6198d436.svg",
+    "static/media/delete.svg": "/ToDo-s-Coquette/static/media/delete.41b543a57980da6f3d2a69571387bf36.svg",
+    "main.c6332c04.css.map": "/ToDo-s-Coquette/static/css/main.c6332c04.css.map",
+    "main.3eb6c4e3.js.map": "/ToDo-s-Coquette/static/js/main.3eb6c4e3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6332c04.css",
+    "static/js/main.3eb6c4e3.js"
+  ]
+}
