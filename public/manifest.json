@@ -3,17 +3,17 @@
   "name": "ToDo's Coquette 🎀",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "coquette.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "react192.png",
+      "src": "coquette.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "react512.png",
+      "src": "coquette.png",
       "type": "image/png",
       "sizes": "512x512"
     }
